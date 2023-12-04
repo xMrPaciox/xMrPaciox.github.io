@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js";></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+
+<title>3D World</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="titoloHeader" onmouseover="cambiaColoreEntrata()" onmouseout="cambiaColoreUscita()">3D WORLD</h1>
+        <div class="menu-tendina">
+            <ul class="elenco-tendina">
+                <li><a href="#" class="shadowTitles">About us</a></li>
+                <li><a href="#" class="shadowTitles">Services</a></li>
+                <li><a href="#" class="shadowTitles">Softwares</a></li>
+                <li><a href="#" class="shadowTitles">Renders</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="gridContainer">
+        <div class="gridItem">
+            <img src="Images/Paolo.png" alt="planet">
+            <p class="description">PAOLO</p>
+        </div>
+        <div class="gridItem">
+            <img src="Images/Houdini_Smoke.png" alt="Houdini">
+            <p class="description">HOUDINI SMOKE</p>
+        </div>
+        <div class="gridItem">
+            <img src="Images/marble.png" alt="Marble">
+            <p class="description">MARBLE</p>
+        </div>
+    </div>
+      
+    <footer>
+        <p>&copy; 2023 DESIGN 3D. Tutti i diritti riservati.</p>
+    </footer>
+
+    <div id="cookie-consent-banner" class="cookie-consent">
+        <p>Questo sito utilizza i cookie per migliorare l'esperienza dell'utente. <a href="privacy.html">Maggiori informazioni</a>.</p>
+        <button onclick="accettaCookie()">Accetta</button>
+    </div>
+</body>
+</html>
